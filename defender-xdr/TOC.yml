@@ -26,8 +26,6 @@
           href: prerequisites.md
         - name: Data security and privacy
           href: data-privacy.md
-        - name: Microsoft security portals
-          href: portals.md
     - name: Pilot and deploy Microsoft Defender XDR
       items:
         - name: Overview
