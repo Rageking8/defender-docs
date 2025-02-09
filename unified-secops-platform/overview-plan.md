@@ -5,7 +5,7 @@ author: batamig
 ms.author: bagol
 ms.service: unified-secops-platform
 ms.topic: concept-article #Don't change.
-ms.date: 12/02/2024
+ms.date: 02/09/2025
 ms.collection:
 - usx-security
 
@@ -148,6 +148,29 @@ Plan your Microsoft Sentinel budget, considering cost implications for each plan
 - [Log retention plans in Microsoft Sentinel](/azure/sentinel/log-plans)
 - [Plan costs and understand Microsoft Sentinel pricing and billing](/azure/sentinel/billing?tabs=simplified%2Ccommitment-tiers)
 
+## Understand the security portals and admin centers
+
+While the Microsoft Defender portal is the home for monitoring and managing security across your identities, data, devices, and apps, you need to access various portals for certain specialized tasks.
+
+Microsoft security portals include:
+
+| Portal name | Description | Link |
+|---|---|---|
+| Microsoft Defender portal | Monitor and respond to threat activity and strengthen security posture across your identities, email, data, endpoints, and apps with [Microsoft Defender XDR](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/)  <br/><br/>The Microsoft Defender portal is where you view and manage alerts, incidents, settings, and more. |
+| Defender for Cloud portal | Use [Microsoft Defender for Cloud](/azure/security-center/security-center-intro) to strengthen the security posture of your data centers and your hybrid workloads in the cloud | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
+| Microsoft Security Intelligence portal | Get security intelligence updates for Microsoft Defender for Endpoint, submit samples, and explore the threat encyclopedia | [microsoft.com/wdsi](https://microsoft.com/wdsi) |
+
+The following table describes portals for other workloads that can impact your security. Visit these portals to manage identities, permissions, device settings, and data handling policies.
+
+| Portal name | Description | Link |
+|---|---|---|
+| Microsoft Entra admin center | Access and administer the [Microsoft Entra](/entra) family to protect your business with decentralized identity, identity protection, governance, and more, in a multicloud environment| [entra.microsoft.com](https://entra.microsoft.com/) |
+| Azure portal | View and manage all your [Azure resources](/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
+| Microsoft Purview portal | Manage data handling policies and ensure [compliance with regulations](/compliance/regulatory/offering-home) | [purview.microsoft.com](https://purview.microsoft.com/) |
+| Microsoft 365 admin center | Configure Microsoft 365 services; manage roles, licenses, and track updates to your Microsoft 365 services | [admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2166757) |
+| Microsoft Intune admin center | Use [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) to manage and secure devices. Can also combine Intune and Configuration Manager capabilities. | [intune.microsoft.com](https://intune.microsoft.com/) |
+| Microsoft Intune portal | Use [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) to deploy device policies and monitor devices for compliance | [intune.microsoft.com](https://intune.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview) |
+
 ## Plan roles and permissions
 
 Use Microsoft Entra role based access control (RBAC) to create and assign roles within your security operations team to grant appropriate access to services included in Microsoft's unified SecOps platform.
@@ -198,6 +221,8 @@ For more information about implementing Zero Trust principles in Microsoft's uni
 - [Microsoft Entra ID Protection](/entra/id-protection/how-to-deploy-identity-protection)
 
 For more information, see the [Zero Trust Guidance Center](/security/zero-trust/zero-trust-overview).
+
+
 
 ## Next step
 
