@@ -148,7 +148,7 @@ Plan your Microsoft Sentinel budget, considering cost implications for each plan
 - [Log retention plans in Microsoft Sentinel](/azure/sentinel/log-plans)
 - [Plan costs and understand Microsoft Sentinel pricing and billing](/azure/sentinel/billing?tabs=simplified%2Ccommitment-tiers)
 
-## Understand the security portals and admin centers
+## Understand Microsoft security portals and admin centers
 
 While the Microsoft Defender portal is the home for monitoring and managing security across your identities, data, devices, and apps, you need to access various portals for certain specialized tasks.
 
