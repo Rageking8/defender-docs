@@ -42,7 +42,7 @@
       - name: Overview
         href: overview-deploy.md
       - name: Connect Microsoft Sentinel to Microsoft Defender
-        href: /unified-secops-platform/microsoft-sentinel-onboard.md.md?toc=/unified-secops-platform/toc.json&bc=/unified-secops-platform/breadcrumb/toc.json
+        href: /unified-secops-platform/microsoft-sentinel-onboard.md?toc=/unified-secops-platform/toc.json&bc=/unified-secops-platform/breadcrumb/toc.json
     - name: Reduce security risk
       href: reduce-risk-overview.md
     - name: Detect threats
