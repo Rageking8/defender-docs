@@ -47,7 +47,7 @@ As we build on this foundation of case management, we're prioritizing these addi
 
 Case management is available in the Defender portal, and to use it, you must have a Microsoft Sentinel workspace connected. There's no access to cases from the Azure portal.
 
-For more information, see [Connect Microsoft Sentinel to the Defender portal](/unified-secops-platform/microsoft-sentinel-onboard.md).
+For more information, see [Connect Microsoft Sentinel to the Defender portal](/unified-secops-platform/microsoft-sentinel-onboard).
 
 Use this table to plan your RBAC of case management:
 
