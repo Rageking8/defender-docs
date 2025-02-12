@@ -184,6 +184,11 @@
       "source_path": "defender-xdr/portals.md",
       "redirect_url": "/unified-secops-platform/overview-plan#understand-microsoft-security-portals-and-admin-centers",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "defender-xdr/microsoft-sentinel-onboard.md",
+      "redirect_url": "/unified-secops-platform/microsoft-sentinel-onboard",
+      "redirect_document_id": false
     }
   ]
 }
