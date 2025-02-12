@@ -67,11 +67,10 @@ There are several methods and deployment tools that you can use to install and c
 
 ### System requirements
 
-These four most recent major releases of macOS are supported.
+These three most recent major releases of macOS are supported.
 - 15.0.1 (Sequoia)
 - 14 (Sonoma)
 - 13 (Ventura)
-- 12 (Monterey)
 
 - Supported processors: x64 and ARM64
 
