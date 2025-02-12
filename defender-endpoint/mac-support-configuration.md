@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot installation issues for Microsoft Defender for Endpoint on Mac
-description: Troubleshoot installation issues in Microsoft Defender for Endpoint on Mac.
+title: Troubleshoot configuration issues for Microsoft Defender for Endpoint on Mac
+description: Troubleshoot configuration issues in Microsoft Defender for Endpoint on Mac.
 ms.service: defender-endpoint
 author: emmwalshh
 ms.author: ewalsh
@@ -18,7 +18,7 @@ search.appverid: met150
 ms.date: 04/30/2024
 ---
 
-# Troubleshoot installation issues for Microsoft Defender for Endpoint on macOS
+# Troubleshoot configuration issues for Microsoft Defender for Endpoint on macOS
 
 [!INCLUDE [Microsoft Defender XDR rebranding](../includes/microsoft-defender.md)]
 
@@ -45,13 +45,13 @@ In almost all cases you can change configuration dynamically, and it will be app
 
 Different sources have different priorities.
 When the same setting comes from more than one source, Microsoft Defender will merge values from different sources.
-In most cases it means that the value with the higher priority prevails, and sources from lower priorities are ignored. In some cases (for example, [Antivirus Exclusions](https://learn.microsoft.com/en-us/defender-endpoint/mac-preferences#exclusion-merge-policy)). Refer to configuration documentation for details.
+In most cases it means that the value with the higher priority prevails, and sources from lower priorities are ignored. In some cases (for example, [Antivirus Exclusions](mac-preferences.md#exclusion-merge-policy)). Refer to configuration documentation for details.
 
 Configuration sources in the order of priority ("1" is the highest priority):
 
 1) MDE Attach, Defender configured in Intune portal
 2) [MDM configuration profile](mac-jamfpro-policies.md), configured using your MDM software
-3) [Local configuration](mac-resources#supported-output-types), that you made using `mdatp config ...` command as local administrator, or through Microsoft Defender's application
+3) [Local configuration](mac-resources.md#supported-output-types), that you made using `mdatp config ...` command as local administrator, or through Microsoft Defender's application
 4) Default setting, that is used when you provided no explicit setting
 
 ### MDE Attach and MDM Configuration profile
