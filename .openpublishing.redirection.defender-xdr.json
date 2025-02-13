@@ -10,7 +10,6 @@
       "redirect_url": "/defender-for-identity/microsoft-365-security-center-mdi",
       "redirect_document_id": false
     },
-
     {
       "source_path": "defender-xdr/eval-create-eval-environment.md",
       "redirect_url": "/defender-xdr/pilot-deploy-overview",
@@ -204,6 +203,11 @@
     {
       "source_path": "defender-xdr/portal-submission-troubleshooting.md",
       "redirect_url": "/defender-xdr/troubleshoot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "defender-xdr/portals.md",
+      "redirect_url": "/unified-secops-platform/overview-plan#understand-microsoft-security-portals-and-admin-centers",
       "redirect_document_id": false
     },
     {
